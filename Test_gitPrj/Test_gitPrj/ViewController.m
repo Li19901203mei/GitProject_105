@@ -18,6 +18,8 @@
     [super viewDidLoad];
     self.title = @"github 代码修改";
     // Do any additional setup after loading the view, typically from a nib.
+    //尝试一下
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 
 - (void)didReceiveMemoryWarning {
