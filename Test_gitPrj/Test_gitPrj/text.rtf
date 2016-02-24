@@ -1,0 +1,355 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset134 STHeitiSC-Light;
+}
+{\colortbl;\red255\green255\blue255;\red180\green36\blue25;\red47\green180\blue29;\red159\green160\blue28;
+\red46\green174\blue187;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs22 \cf0 \CocoaLigature0 Last login: Wed Feb 24 08:45:13 on console\
+mac2:~ mac$ cd /Users/mac/Desktop/myGit \
+mac2:myGit mac$ git init\
+Initialized empty Git repository in /Users/mac/Desktop/myGit/.git/\
+mac2:myGit mac$ ls -a\
+.	..	.git\
+mac2:myGit mac$ cd .git\
+mac2:.git mac$ ls\
+HEAD		config		hooks		objects\
+branches	description	info		refs\
+mac2:.git mac$ cd ..\
+mac2:myGit mac$ git config --global --edit\
+mac2:myGit mac$ git config --global --edit  user.name gengxin\
+error: wrong number of arguments\
+usage: git config [<options>]\
+\
+Config file location\
+    --global              use global config file\
+    --system              use system config file\
+    --local               use repository config file\
+    -f, --file <file>     use given config file\
+    --blob <blob-id>      read config from given blob object\
+\
+Action\
+    --get                 get value: name [value-regex]\
+    --get-all             get all values: key [value-regex]\
+    --get-regexp          get values for regexp: name-regex [value-regex]\
+    --get-urlmatch        get value specific for the URL: section[.var] URL\
+    --replace-all         replace all matching variables: name value [value_regex]\
+    --add                 add a new variable: name value\
+    --unset               remove a variable: name [value-regex]\
+    --unset-all           remove all matches: name [value-regex]\
+    --rename-section      rename section: old-name new-name\
+    --remove-section      remove a section: name\
+    -l, --list            list all\
+    -e, --edit            open an editor\
+    --get-color           find the color configured: slot [default]\
+    --get-colorbool       find the color setting: slot [stdout-is-tty]\
+\
+Type\
+    --bool                value is "true" or "false"\
+    --int                 value is decimal number\
+    --bool-or-int         value is --bool or --int\
+    --path                value is a path (file or directory name)\
+\
+Other\
+    -z, --null            terminate values with NUL byte\
+    --includes            respect include directives on lookup\
+\
+mac2:myGit mac$ git config --global --edit  user.email  952743985@qq.com\
+error: wrong number of arguments\
+usage: git config [<options>]\
+\
+Config file location\
+    --global              use global config file\
+    --system              use system config file\
+    --local               use repository config file\
+    -f, --file <file>     use given config file\
+    --blob <blob-id>      read config from given blob object\
+\
+Action\
+    --get                 get value: name [value-regex]\
+    --get-all             get all values: key [value-regex]\
+    --get-regexp          get values for regexp: name-regex [value-regex]\
+    --get-urlmatch        get value specific for the URL: section[.var] URL\
+    --replace-all         replace all matching variables: name value [value_regex]\
+    --add                 add a new variable: name value\
+    --unset               remove a variable: name [value-regex]\
+    --unset-all           remove all matches: name [value-regex]\
+    --rename-section      rename section: old-name new-name\
+    --remove-section      remove a section: name\
+    -l, --list            list all\
+    -e, --edit            open an editor\
+    --get-color           find the color configured: slot [default]\
+    --get-colorbool       find the color setting: slot [stdout-is-tty]\
+\
+Type\
+    --bool                value is "true" or "false"\
+    --int                 value is decimal number\
+    --bool-or-int         value is --bool or --int\
+    --path                value is a path (file or directory name)\
+\
+Other\
+    -z, --null            terminate values with NUL byte\
+    --includes            respect include directives on lookup\
+\
+mac2:myGit mac$ git config --global --edit\
+mac2:myGit mac$ name = lutenglong\
+-bash: name: command not found\
+mac2:myGit mac$         email = 479853647@qq.com\
+-bash: email: command not found\
+mac2:myGit mac$  git config \'97-global  -\'97edit \
+error: key does not contain a section: \'97-global\
+mac2:myGit mac$ git config --global --edit\
+error: There was a problem with the editor 'vi'.\
+mac2:myGit mac$ git config --global --edit  user.email  952743985@qq.com\
+error: wrong number of arguments\
+usage: git config [<options>]\
+\
+Config file location\
+    --global              use global config file\
+    --system              use system config file\
+    --local               use repository config file\
+    -f, --file <file>     use given config file\
+    --blob <blob-id>      read config from given blob object\
+\
+Action\
+    --get                 get value: name [value-regex]\
+    --get-all             get all values: key [value-regex]\
+    --get-regexp          get values for regexp: name-regex [value-regex]\
+    --get-urlmatch        get value specific for the URL: section[.var] URL\
+    --replace-all         replace all matching variables: name value [value_regex]\
+    --add                 add a new variable: name value\
+    --unset               remove a variable: name [value-regex]\
+    --unset-all           remove all matches: name [value-regex]\
+    --rename-section      rename section: old-name new-name\
+    --remove-section      remove a section: name\
+    -l, --list            list all\
+    -e, --edit            open an editor\
+    --get-color           find the color configured: slot [default]\
+    --get-colorbool       find the color setting: slot [stdout-is-tty]\
+\
+Type\
+    --bool                value is "true" or "false"\
+    --int                 value is decimal number\
+    --bool-or-int         value is --bool or --int\
+    --path                value is a path (file or directory name)\
+\
+Other\
+    -z, --null            terminate values with NUL byte\
+    --includes            respect include directives on lookup\
+\
+mac2:myGit mac$ git config --global --edit  user.email 952743985@qq.com\
+error: wrong number of arguments\
+usage: git config [<options>]\
+\
+Config file location\
+    --global              use global config file\
+    --system              use system config file\
+    --local               use repository config file\
+    -f, --file <file>     use given config file\
+    --blob <blob-id>      read config from given blob object\
+\
+Action\
+    --get                 get value: name [value-regex]\
+    --get-all             get all values: key [value-regex]\
+    --get-regexp          get values for regexp: name-regex [value-regex]\
+    --get-urlmatch        get value specific for the URL: section[.var] URL\
+    --replace-all         replace all matching variables: name value [value_regex]\
+    --add                 add a new variable: name value\
+    --unset               remove a variable: name [value-regex]\
+    --unset-all           remove all matches: name [value-regex]\
+    --rename-section      rename section: old-name new-name\
+    --remove-section      remove a section: name\
+    -l, --list            list all\
+    -e, --edit            open an editor\
+    --get-color           find the color configured: slot [default]\
+    --get-colorbool       find the color setting: slot [stdout-is-tty]\
+\
+Type\
+    --bool                value is "true" or "false"\
+    --int                 value is decimal number\
+    --bool-or-int         value is --bool or --int\
+    --path                value is a path (file or directory name)\
+\
+Other\
+    -z, --null            terminate values with NUL byte\
+    --includes            respect include directives on lookup\
+\
+mac2:myGit mac$ git config --global --edit  user.email  952743985@qq.com\
+error: wrong number of arguments\
+usage: git config [<options>]\
+\
+Config file location\
+    --global              use global config file\
+    --system              use system config file\
+    --local               use repository config file\
+    -f, --file <file>     use given config file\
+    --blob <blob-id>      read config from given blob object\
+\
+Action\
+    --get                 get value: name [value-regex]\
+    --get-all             get all values: key [value-regex]\
+    --get-regexp          get values for regexp: name-regex [value-regex]\
+    --get-urlmatch        get value specific for the URL: section[.var] URL\
+    --replace-all         replace all matching variables: name value [value_regex]\
+    --add                 add a new variable: name value\
+    --unset               remove a variable: name [value-regex]\
+    --unset-all           remove all matches: name [value-regex]\
+    --rename-section      rename section: old-name new-name\
+    --remove-section      remove a section: name\
+    -l, --list            list all\
+    -e, --edit            open an editor\
+    --get-color           find the color configured: slot [default]\
+    --get-colorbool       find the color setting: slot [stdout-is-tty]\
+\
+Type\
+    --bool                value is "true" or "false"\
+    --int                 value is decimal number\
+    --bool-or-int         value is --bool or --int\
+    --path                value is a path (file or directory name)\
+\
+Other\
+    -z, --null            terminate values with NUL byte\
+    --includes            respect include directives on lookup\
+\
+mac2:myGit mac$ git config --global  user.email  952743985@qq.com\
+mac2:myGit mac$ git config --global  user.name   gengxin\
+mac2:myGit mac$ git config \'97-global  -\'97edit \
+error: key does not contain a section: \'97-global\
+mac2:myGit mac$ git config \'97-global  -\'97edit \
+error: key does not contain a section: \'97-global\
+mac2:myGit mac$ git config --global --edit\
+mac2:myGit mac$ touch hlm.text\
+mac2:myGit mac$ git status\
+On branch master\
+\
+Initial commit\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+\
+	\cf2 hlm.text\cf0 \
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+mac2:myGit mac$ git add hlm.text\
+mac2:myGit mac$ git status\
+On branch master\
+\
+Initial commit\
+\
+Changes to be committed:\
+  (use "git rm --cached <file>..." to unstage)\
+\
+	\cf3 new file:   hlm.text\cf0 \
+\
+mac2:myGit mac$ git commit\
+Aborting commit due to empty commit message.\
+mac2:myGit mac$ git commit -m add hulou\
+error: pathspec 'hulou' did not match any file(s) known to git.\
+mac2:myGit mac$ git commit -m houl\
+[master (root-commit) 012d132] houl\
+ 1 file changed, 0 insertions(+), 0 deletions(-)\
+ create mode 100644 hlm.text\
+mac2:myGit mac$ git status\
+On branch master\
+nothing to commit, working directory clean\
+mac2:myGit mac$ git log\
+\cf4 commit 012d132a6b981126c61410d64157dbbf0431c9cb\cf0 \
+Author: gengxin <952743985@qq.com>\
+Date:   Wed Feb 24 10:12:06 2016 +0800\
+\
+    houl\
+mac2:myGit mac$ git status\
+On branch master\
+Changes not staged for commit:\
+  (use "git add <file>..." to update what will be committed)\
+  (use "git checkout -- <file>..." to discard changes in working directory)\
+\
+	\cf2 modified:   hlm.text\cf0 \
+\
+no changes added to commit (use "git add" and/or "git commit -a")\
+mac2:myGit mac$ git commit -a -m222\
+[master c5d7048] 222\
+ 1 file changed, 1 insertion(+)\
+mac2:myGit mac$ git log\
+\cf4 commit c5d704866fbaf0d8fca29d8161e8ea82a5a2a53c\cf0 \
+Author: gengxin <952743985@qq.com>\
+Date:   Wed Feb 24 10:18:04 2016 +0800\
+\
+    222\
+\
+\cf4 commit 012d132a6b981126c61410d64157dbbf0431c9cb\cf0 \
+Author: gengxin <952743985@qq.com>\
+Date:   Wed Feb 24 10:12:06 2016 +0800\
+\
+    houl\
+mac2:myGit mac$ git status\
+On branch master\
+Changes not staged for commit:\
+  (use "git add <file>..." to update what will be committed)\
+  (use "git checkout -- <file>..." to discard changes in working directory)\
+\
+	\cf2 modified:   hlm.text\cf0 \
+\
+no changes added to commit (use "git add" and/or "git commit -a")\
+mac2:myGit mac$ git diff\
+
+\f1\b diff --git a/hlm.text b/hlm.text
+\f0\b0 \
+
+\f1\b index d92091b..d2be7ff 100644
+\f0\b0 \
+
+\f1\b --- a/hlm.text
+\f0\b0 \
+
+\f1\b +++ b/hlm.text
+\f0\b0 \
+\cf5 @@ -1 +1,2 @@\cf0 \
+\cf2 -
+\f2 \'b5\'da\'d2\'bb\'bb\'d8
+\f0 \cf0 \
+\\ No newline at end of file\
+\cf3 +
+\f2 \'b5\'da\'d2\'bb\'bb\'d8
+\f0 \cf0 \
+\cf3 +
+\f2 \'b5\'da\'b6\'fe\'bb\'d8
+\f0 \cf0 \
+\\ No newline at end of file\
+mac2:myGit mac$ git chechout  --hlm.text\
+git: 'chechout' is not a git command. See 'git --help'.\
+\
+Did you mean this?\
+	checkout\
+mac2:myGit mac$ git chechout  -- hlm.text\
+git: 'chechout' is not a git command. See 'git --help'.\
+\
+Did you mean this?\
+	checkout\
+mac2:myGit mac$ git checkout -- hlm.text\
+mac2:myGit mac$ git kog\
+git: 'kog' is not a git command. See 'git --help'.\
+\
+Did you mean this?\
+	log\
+mac2:myGit mac$ giu reset --hard 012d132a6b981126c61410d64157dbbf0431c9cb\
+-bash: giu: command not found\
+mac2:myGit mac$ giu reset --hard 012d132a6b981126c61410d64157dbbf0431c9cb\
+-bash: giu: command not found\
+mac2:myGit mac$ git reset --hard 012d132a6b981126c61410d64157dbbf0431c9cb\
+HEAD is now at 012d132 houl\
+mac2:myGit mac$ git reset --hard c5d704866fbaf0d8fca29d8161e8ea82a5a2a53c\
+HEAD is now at c5d7048 222\
+mac2:myGit mac$ git rflog\
+git: 'rflog' is not a git command. See 'git --help'.\
+\
+Did you mean this?\
+	reflog\
+mac2:myGit mac$ git reflog\
+\cf4 c5d7048\cf0  HEAD@\{0\}: reset: moving to c5d704866fbaf0d8fca29d8161e8ea82a5a2a53c\
+\cf4 012d132\cf0  HEAD@\{1\}: reset: moving to 012d132a6b981126c61410d64157dbbf0431c9cb\
+\cf4 c5d7048\cf0  HEAD@\{2\}: commit: 222\
+\cf4 012d132\cf0  HEAD@\{3\}: commit (initial): houl\
+mac2:myGit mac$ \
+}
