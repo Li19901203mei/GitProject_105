@@ -18,6 +18,8 @@
     [super viewDidLoad];
     self.title = @"github 代码修改";
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"程序哦ID阿得更快v模式了;工科生日快乐更让大家拍");
 }
 
 - (void)didReceiveMemoryWarning {
